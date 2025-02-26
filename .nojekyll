@@ -1,0 +1,12 @@
+# 禁用默认Markdown处理
+markdown: none
+kramdown:
+  parse_block_html: true
+ 
+# 排除所有Markdown文件
+exclude:
+  - "*.md"
+  - "**/*.md"
+ 
+# 关闭自动页面生成
+plugins: []
